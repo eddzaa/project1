@@ -9,8 +9,8 @@ pipeline {
     }
  stage('Pull Changes') {
       steps {
-        sh 'git pull origin main'
-        echo "WebHook Is Successfully Change"
+        sh 'git pull origin main' 
+        echo "WebHook Is Successfuly Changed by me"
       }
       }
 
